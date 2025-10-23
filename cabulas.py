@@ -42,3 +42,12 @@ match num:
     case _:
         print("Mês inválido!")
         """
+
+nomes = ["Ana", "Bruno", "Carlos"]
+
+print(nomes[0])      # mostra 'Ana'
+nomes.append("Diana") # adiciona um nome
+print(nomes)          # mostra ['Ana', 'Bruno', 'Carlos', 'Diana']
+nomes.remove("Bruno") # remove 'Bruno'
+print(len(nomes))     # mostra o tamanho da lista
+

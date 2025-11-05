@@ -51,3 +51,31 @@ print(nomes)          # mostra ['Ana', 'Bruno', 'Carlos', 'Diana']
 nomes.remove("Bruno") # remove 'Bruno'
 print(len(nomes))     # mostra o tamanho da lista
 
+
+ """
+lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+nova_lista = [i * 3 for i in lista]
+
+print("Lista original:", lista)
+print("Nova lista (triplo):", nova_lista)
+ """
+
+ """
+lista_str = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+lista_int = [int(i) for i in lista_str]
+
+print("Lista original (strings):", lista_str)
+print("Nova lista (inteiros):", lista_int)
+ """
+ """
+lista_str = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+
+# criar nova lista convertendo cada valor para inteiro
+lista_int = [int(i) for i in lista_str]
+
+# mostrar resultado
+print("Lista original (strings):", lista_str)
+print("Nova lista (inteiros):", lista_int)
+"""
+

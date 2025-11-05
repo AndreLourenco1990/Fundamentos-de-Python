@@ -42,7 +42,7 @@ match num:
     case _:
         print("Mês inválido!")
         """
-
+ """
 nomes = ["Ana", "Bruno", "Carlos"]
 
 print(nomes[0])      # mostra 'Ana'
@@ -50,7 +50,7 @@ nomes.append("Diana") # adiciona um nome
 print(nomes)          # mostra ['Ana', 'Bruno', 'Carlos', 'Diana']
 nomes.remove("Bruno") # remove 'Bruno'
 print(len(nomes))     # mostra o tamanho da lista
-
+ """
 
  """
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -79,3 +79,22 @@ print("Lista original (strings):", lista_str)
 print("Nova lista (inteiros):", lista_int)
 """
 
+def soma():
+    num1 = int(input("Digite um numero: "))
+    num2 = int(input("Digite outro numero: "))
+    res = num1 + num2
+    print(res)
+
+
+def soma2(num1, num2):
+    res = num1 + num2
+    return res
+
+res_soma = soma2(num1: 2, num2: 4)
+print(".... codigo e mais codigo....")
+
+print(res_soma)
+
+res_soma2 = soma2(res_soma, num2: 4)
+
+print(res_soma2)

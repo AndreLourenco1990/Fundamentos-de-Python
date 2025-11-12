@@ -78,7 +78,7 @@ lista_int = [int(i) for i in lista_str]
 print("Lista original (strings):", lista_str)
 print("Nova lista (inteiros):", lista_int)
 """
-
+"""
 def soma():
     num1 = int(input("Digite um numero: "))
     num2 = int(input("Digite outro numero: "))
@@ -98,3 +98,15 @@ print(res_soma)
 res_soma2 = soma2(res_soma, num2: 4)
 
 print(res_soma2)
+"""
+
+class Pessoa:
+    def __init__(self, nome, idade):
+        self.nome = nome
+        self.idade = idade
+
+p1 = Pessoa("Ana", 15)
+p2 = Pessoa("Bruno", 20)
+
+print(f"Nome: {p1.nome}, Idade: {p1.idade}")
+print(f"Nome: {p2.nome}, Idade: {p2.idade}")
